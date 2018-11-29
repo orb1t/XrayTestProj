@@ -27,7 +27,7 @@
             },
             "name": "I have entered 20 into the calculator",
             "result": {
-              "duration": 186.0004,
+              "duration": 182.0044,
               "error_message": null,
               "status": "Passed"
             }
@@ -40,7 +40,7 @@
             },
             "name": "I have also entered 30 into the calculator",
             "result": {
-              "duration": 1.002,
+              "duration": 0.9935,
               "error_message": null,
               "status": "Passed"
             }
@@ -53,7 +53,7 @@
             },
             "name": "I press add",
             "result": {
-              "duration": 1.9991,
+              "duration": 1.9674,
               "error_message": null,
               "status": "Passed"
             }
@@ -66,7 +66,7 @@
             },
             "name": "the result should be 50 on the screen",
             "result": {
-              "duration": 8.0012,
+              "duration": 10.001700000000001,
               "error_message": null,
               "status": "Passed"
             }
@@ -99,7 +99,7 @@
             },
             "name": "I have entered 2 into the calculator",
             "result": {
-              "duration": 0.0,
+              "duration": 0.9789,
               "error_message": null,
               "status": "Passed"
             }
@@ -138,7 +138,7 @@
             },
             "name": "the result should be 7 on the screen",
             "result": {
-              "duration": 1.0001,
+              "duration": 0.0,
               "error_message": null,
               "status": "Passed"
             }
@@ -171,7 +171,7 @@
             },
             "name": "I have entered 0 into the calculator",
             "result": {
-              "duration": 0.0,
+              "duration": 1.0118,
               "error_message": null,
               "status": "Passed"
             }
@@ -184,7 +184,7 @@
             },
             "name": "I have also entered 40 into the calculator",
             "result": {
-              "duration": 1.0128000000000001,
+              "duration": 0.0,
               "error_message": null,
               "status": "Passed"
             }
@@ -315,7 +315,7 @@
             },
             "name": "I have entered 5 into the calculator",
             "result": {
-              "duration": 0.99930000000000008,
+              "duration": 1.0118,
               "error_message": null,
               "status": "Passed"
             }
@@ -413,7 +413,7 @@
             },
             "name": "I press add",
             "result": {
-              "duration": 0.9991000000000001,
+              "duration": 0.99940000000000007,
               "error_message": null,
               "status": "Passed"
             }
@@ -459,7 +459,7 @@
             },
             "name": "I have entered -1 into the calculator",
             "result": {
-              "duration": 1.0001,
+              "duration": 1.0012,
               "error_message": null,
               "status": "Passed"
             }
@@ -531,7 +531,7 @@
             },
             "name": "I have entered 1 into the calculator",
             "result": {
-              "duration": 1.0011,
+              "duration": 0.0,
               "error_message": null,
               "status": "Passed"
             }
@@ -544,7 +544,7 @@
             },
             "name": "I have also entered -1 into the calculator",
             "result": {
-              "duration": 0.0,
+              "duration": 1.0073,
               "error_message": null,
               "status": "Passed"
             }
@@ -557,7 +557,7 @@
             },
             "name": "I press add",
             "result": {
-              "duration": 1.0002,
+              "duration": 0.0,
               "error_message": null,
               "status": "Passed"
             }
