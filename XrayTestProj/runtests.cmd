@@ -1,9 +1,9 @@
 @pushd %~dp0
 
-del ..\TestResults\*.*
-del *.feature.cs
-del *.feature
-del .\bin\*.*
+del /Q /F ..\TestResults\*.*
+del /Q /F *.feature.cs
+del /Q /F *.feature
+del /Q /F .\bin\*.*
 
 ..\packages\Acheve.Jira.XRay.0.0.3\tools\Acheve.Jira.XRay.exe get-features -h http://10.1.133.215:8181 -u denisg -p 123qwe -t XRAYT0-1829 -d ./
 rename 1.feature 16.feature
