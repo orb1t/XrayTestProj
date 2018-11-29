@@ -6,13 +6,9 @@
         "description": "",
         "id": "",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 13,
         "name": "Add two positive numbers, 20",
         "tags": [
-          {
-            "name": "XRAYT0-1830",
-            "line": 1
-          },
           {
             "name": "XRAYT0-1831",
             "line": 1
@@ -27,7 +23,7 @@
             },
             "name": "I have entered 20 into the calculator",
             "result": {
-              "duration": 182.0044,
+              "duration": 182.0299,
               "error_message": null,
               "status": "Passed"
             }
@@ -40,7 +36,7 @@
             },
             "name": "I have also entered 30 into the calculator",
             "result": {
-              "duration": 0.9935,
+              "duration": 0.96820000000000006,
               "error_message": null,
               "status": "Passed"
             }
@@ -53,7 +49,7 @@
             },
             "name": "I press add",
             "result": {
-              "duration": 1.9674,
+              "duration": 2.0002,
               "error_message": null,
               "status": "Passed"
             }
@@ -66,7 +62,7 @@
             },
             "name": "the result should be 50 on the screen",
             "result": {
-              "duration": 10.001700000000001,
+              "duration": 8.0001,
               "error_message": null,
               "status": "Passed"
             }
@@ -78,13 +74,9 @@
         "description": "",
         "id": "",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 13,
         "name": "Add two positive numbers, 2",
         "tags": [
-          {
-            "name": "XRAYT0-1830",
-            "line": 1
-          },
           {
             "name": "XRAYT0-1831",
             "line": 1
@@ -99,7 +91,7 @@
             },
             "name": "I have entered 2 into the calculator",
             "result": {
-              "duration": 0.9789,
+              "duration": 0.0,
               "error_message": null,
               "status": "Passed"
             }
@@ -150,13 +142,9 @@
         "description": "",
         "id": "",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 13,
         "name": "Add two positive numbers, 0",
         "tags": [
-          {
-            "name": "XRAYT0-1830",
-            "line": 1
-          },
           {
             "name": "XRAYT0-1831",
             "line": 1
@@ -171,7 +159,7 @@
             },
             "name": "I have entered 0 into the calculator",
             "result": {
-              "duration": 1.0118,
+              "duration": 0.0,
               "error_message": null,
               "status": "Passed"
             }
@@ -210,7 +198,7 @@
             },
             "name": "the result should be 40 on the screen",
             "result": {
-              "duration": 0.0,
+              "duration": 0.9988,
               "error_message": null,
               "status": "Passed"
             }
@@ -222,13 +210,9 @@
         "description": "",
         "id": "",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 13,
         "name": "Add two positive numbers, 4",
         "tags": [
-          {
-            "name": "XRAYT0-1830",
-            "line": 1
-          },
           {
             "name": "XRAYT0-1831",
             "line": 1
@@ -294,13 +278,9 @@
         "description": "",
         "id": "",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 13,
         "name": "Add two positive numbers, 5",
         "tags": [
-          {
-            "name": "XRAYT0-1830",
-            "line": 1
-          },
           {
             "name": "XRAYT0-1831",
             "line": 1
@@ -315,7 +295,7 @@
             },
             "name": "I have entered 5 into the calculator",
             "result": {
-              "duration": 1.0118,
+              "duration": 0.0,
               "error_message": null,
               "status": "Passed"
             }
@@ -328,7 +308,7 @@
             },
             "name": "I have also entered 50 into the calculator",
             "result": {
-              "duration": 0.0,
+              "duration": 1.0001,
               "error_message": null,
               "status": "Passed"
             }
@@ -366,85 +346,9 @@
         "description": "",
         "id": "",
         "keyword": "Scenario",
-        "line": 22,
-        "name": "add two numbers",
-        "tags": [
-          {
-            "name": "XRAYT0-1830",
-            "line": 1
-          },
-          {
-            "name": "XRAYT0-1832",
-            "line": 1
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Given ",
-            "line": 0,
-            "match": {
-              "location": "GivenIHaveEnteredIntoTheCalculator"
-            },
-            "name": "I have entered 50 into the calculator",
-            "result": {
-              "duration": 0.0,
-              "error_message": null,
-              "status": "Passed"
-            }
-          },
-          {
-            "keyword": "And ",
-            "line": 0,
-            "match": {
-              "location": "GivenIHaveAlsoEnteredIntoTheCalculator"
-            },
-            "name": "I have also entered 70 into the calculator",
-            "result": {
-              "duration": 0.0,
-              "error_message": null,
-              "status": "Passed"
-            }
-          },
-          {
-            "keyword": "When ",
-            "line": 0,
-            "match": {
-              "location": "WhenIPressAdd"
-            },
-            "name": "I press add",
-            "result": {
-              "duration": 0.99940000000000007,
-              "error_message": null,
-              "status": "Passed"
-            }
-          },
-          {
-            "keyword": "Then ",
-            "line": 0,
-            "match": {
-              "location": "ThenTheResultShouldBeOnTheScreen"
-            },
-            "name": "the result should be 120 on the screen",
-            "result": {
-              "duration": 0.0,
-              "error_message": null,
-              "status": "Passed"
-            }
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "",
-        "keyword": "Scenario",
-        "line": 38,
+        "line": 29,
         "name": "add two negative numbers, Variant 0",
         "tags": [
-          {
-            "name": "XRAYT0-1830",
-            "line": 1
-          },
           {
             "name": "XRAYT0-1833",
             "line": 1
@@ -459,7 +363,7 @@
             },
             "name": "I have entered -1 into the calculator",
             "result": {
-              "duration": 1.0012,
+              "duration": 0.9998,
               "error_message": null,
               "status": "Passed"
             }
@@ -510,13 +414,9 @@
         "description": "",
         "id": "",
         "keyword": "Scenario",
-        "line": 38,
+        "line": 29,
         "name": "add two negative numbers, Variant 1",
         "tags": [
-          {
-            "name": "XRAYT0-1830",
-            "line": 1
-          },
           {
             "name": "XRAYT0-1833",
             "line": 1
@@ -544,7 +444,7 @@
             },
             "name": "I have also entered -1 into the calculator",
             "result": {
-              "duration": 1.0073,
+              "duration": 0.0,
               "error_message": null,
               "status": "Passed"
             }
@@ -577,17 +477,80 @@
           }
         ],
         "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "add two numbers",
+        "tags": [
+          {
+            "name": "XRAYT0-1832",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 0,
+            "match": {
+              "location": "GivenIHaveEnteredIntoTheCalculator"
+            },
+            "name": "I have entered 50 into the calculator",
+            "result": {
+              "duration": 2.0008,
+              "error_message": null,
+              "status": "Passed"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 0,
+            "match": {
+              "location": "GivenIHaveAlsoEnteredIntoTheCalculator"
+            },
+            "name": "I have also entered 70 into the calculator",
+            "result": {
+              "duration": 0.0,
+              "error_message": null,
+              "status": "Passed"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 0,
+            "match": {
+              "location": "WhenIPressAdd"
+            },
+            "name": "I press add",
+            "result": {
+              "duration": 0.0,
+              "error_message": null,
+              "status": "Passed"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 0,
+            "match": {
+              "location": "ThenTheResultShouldBeOnTheScreen"
+            },
+            "name": "the result should be 120 on the screen",
+            "result": {
+              "duration": 0.0,
+              "error_message": null,
+              "status": "Passed"
+            }
+          }
+        ],
+        "type": "scenario"
       }
     ],
     "id": "",
     "keyword": "Feature",
-    "line": 2,
-    "tags": [
-      {
-        "name": "XRAYT0-1830",
-        "line": 1
-      }
-    ],
+    "line": 1,
+    "tags": [],
     "name": "",
     "uri": "16.feature"
   }
