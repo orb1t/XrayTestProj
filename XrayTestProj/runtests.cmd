@@ -1,13 +1,13 @@
 @pushd %~dp0
 
-@where /q msbuild
+rem @where /q msbuild
 
-@IF ERRORLEVEL 1 (
-	echo "MSBuild is not in your PATH. Please use a developer command prompt!"
-	goto :end
-) ELSE (
+rem @IF ERRORLEVEL 1 (
+rem 	echo "MSBuild is not in your PATH. Please use a developer command prompt!"
+rem 	goto :end
+rem ) ELSE (
 	MSBuild.exe "XrayTestProj.csproj"
-)
+rem )
 
 @if ERRORLEVEL 1 goto end
 
